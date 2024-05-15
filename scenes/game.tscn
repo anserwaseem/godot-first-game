@@ -414,6 +414,21 @@ sources/0 = SubResource("TileSetAtlasSource_itp06")
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_palr8"]
 distance = -153.0
 
+[sub_resource type="Animation" id="Animation_e5vo3"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(373, 62)]
+}
+
 [sub_resource type="Animation" id="Animation_kfmvg"]
 resource_name = "move"
 length = 1.5
@@ -429,21 +444,6 @@ tracks/0/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [Vector2(373, 62), Vector2(469, 62)]
-}
-
-[sub_resource type="Animation" id="Animation_e5vo3"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath(".:position")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector2(373, 62)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fluo4"]
